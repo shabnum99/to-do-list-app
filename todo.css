@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ff1d58;
+   
+}
+
+#todoApp {
+    text-align: center;
+}
+
+#taskInput {
+    padding: 8px;
+    margin-right: 8px;
+}
+
+#addTaskBtn {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+    margin-top: 8px;
+}
+
+.deleteBtn,
+.deleteBtnNextToItem {
+    cursor: pointer;
+    margin-left: 12px;
+    /* Add left margin for a gap between text and delete button */
+}
+
+/* Additional styles for the button-like appearance of deleteBtnNextToItem */
+.deleteBtnNextToItem {
+    padding: 5px 10px;
+    background-color: #2a0408;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
